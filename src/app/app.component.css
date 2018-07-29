@@ -1,0 +1,36 @@
+* {
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.delete{
+    background: red;
+    text-transform: uppercase;
+}
+.submit{
+    background: linear-gradient(#8a9fcc, black);
+}
+.cancel{
+    background: linear-gradient(#bc9764, black);
+}
+.read{
+    background: linear-gradient(#ccc98a, black);
+}
+button{
+    color: white;
+    background: linear-gradient(#8fc69a, black);
+    padding: 5px 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+table, th, td{
+    border-collapse: collapse;
+    border: 1px solid black;
+    padding: 4px;
+    font-size: 20px;
+}
+tr:nth-child(odd){
+    background: #ccc;
+}
+th{
+    font-weight: bold;
+    color: white;
+}

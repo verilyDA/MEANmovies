@@ -1,3 +1,16 @@
-<p>
-  review-list works!
-</p>
+<button class='delete' (click)='delete(movie._id)'>Delete Movie</button>
+<fieldset>
+  <legend><h2>Reviews for {{ movie.title }}</h2></legend>
+  <table>
+    <tr>
+      <th>Reviewer</th>
+      <th>Stars</th>
+      <th>Review</th>
+    </tr>
+    <tr *ngFor='let review of reviews'>
+      <td>{{ review.name }}</td>
+      <td>{{ review.stars }}</td>
+      <td>{{ review.review }}</td>
+    </tr>
+  </table>
+</fieldset>
